@@ -2,6 +2,8 @@
 
 A simple shopping cart application built with Parcel, Firebase, and deployed on Netlify.
 
+https://famcartapp.netlify.app
+
 ## Features
 
 - Add items to the shopping cart
