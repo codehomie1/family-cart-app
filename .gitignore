@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# Parcel cache and build output
+.parcel-cache/
+dist/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Netlify specific files
+.netlify/

@@ -1,0 +1,25 @@
+{
+  "name": "family-cart-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "netlify:login": "npx netlify login",
+    "netlify:deploy": "npx netlify deploy",
+    "netlify:deploy:prod": "npx netlify deploy --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.12.0",
+    "@parcel/transformer-webmanifest": "^2.12.0",
+    "netlify-cli": "^17.37.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "firebase": "^11.0.1"
+  }
+}
